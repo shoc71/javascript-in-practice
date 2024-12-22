@@ -15,3 +15,14 @@
 
     4. Print out "capsNames"
 */
+
+const names = new Set();
+const capsNames = new Set();
+
+const someNames = ['Bilbo', 'Hermione', 'Spock', 'Leia']
+
+for (let n of someNames) {
+    names.add(n)
+    capsNames.add(n)
+}
+console.log(names, capsNames)

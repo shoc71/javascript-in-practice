@@ -17,3 +17,11 @@
          {age: 11, name: "Dragon"}, {age: 74, name: "Dragon"},
          {age: 39, name: "Dragon"}, {age: 2, name: "Dragon"}]
 */
+const ages = [10, 42, 15, 22, 11, 74, 39, 2]
+const results = []
+
+for (let a of ages) {
+    results.push({age: a, name: 'Dragon'})
+}
+
+console.log(results)
